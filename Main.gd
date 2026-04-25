@@ -1,4 +1,4 @@
-extends Control
+extends Control1
 
 @onready var task_image = %TaskImage
 @onready var hint_button = %HintButton
