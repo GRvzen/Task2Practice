@@ -3,8 +3,8 @@ extends Node
 var save_path = "user://stats.save"
 
 # Данные для статистики
-var levels_completed_overall: int = 0
-var total_attempts_on_levels: int = 0
+var levels_completed: int = 0
+var total_attempts: int = 0
 var selected_level_id: int = 1
 
 func _ready():
