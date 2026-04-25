@@ -21,7 +21,7 @@ func _ready():
 	print("ID в Global: ", Global.selected_level_id)
 	
 	if levels.size() == 0:
-		print("Список уровней пуст! Проверь JSON.")
+		print("КРИТИЧЕСКАЯ ОШИБКА: Список уровней пуст! Проверь JSON.")
 		return
 
 	load_level_by_id(Global.selected_level_id)
